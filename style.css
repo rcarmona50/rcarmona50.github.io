@@ -1,0 +1,125 @@
+body {
+    background-color: #14213D;
+    padding: 0;
+    margin: 0;
+}
+
+#intro {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#intro1 {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#myname {
+    font-weight: 700;
+    color: #8BA4DA;
+}
+
+#myname1 {
+    font-weight: 700;
+    color: #8BA4DA;
+}
+
+#osucolor {
+    color: #DC4405;
+}
+
+
+#aboutme {
+    background-color: #fca311;
+}
+
+#mainNavbar .nav-link {
+    color: #8BA4DA;
+}
+
+#mainNavbar .nav-link:hover {
+    color:white;
+}
+
+#raf {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+}
+
+
+#bio {
+    max-width: 70%;
+    margin:auto;
+}
+
+.navbar.scrolled {
+    
+    background: #3d4d6f;
+    transition: background 500ms;
+}
+
+#projects {
+    height: 100vh;
+    color: white;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+#introButton {
+    background: none;
+    color: #ffb703;
+    border: 1px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    margin-top: 25px;
+    width: 160px;
+}
+
+#introButton:hover {
+    border-color: #ffeec4;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffeec4;
+    transform: translateY(-0.25em);
+}
+
+.navNums {
+    color: #ffb703;
+}
+
+#title{
+    color: #8BA4DA;
+}
+
+#cards{
+    background-color: #3d4d6f;
+}
+
+#cardsTitle {
+    color: #ffb703;
+}
+
+.footer {
+    background-color: #3d4d6f;
+}
+
