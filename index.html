@@ -9,110 +9,93 @@
     <title>Rafael Carmona</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
-    
 </head>
-<nav id="mainNavbar" class="navbar navbar-expand-lg bg-body-tertiary font-monospace py-0 fixed-top ">
-    <div class="container-fluid">
-      <a class="navbar-brand text-light " href="#">R/C</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-      <div class="collapse navbar-collapse text-light" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#intro"> <span class="navNums">1.</span> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#intro1"><span class="navNums">2.</span> About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects"><span class="navNums">3.</span> Projects</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link"><span class="navNums">4.</span> Contact Me</a>
-          </li> -->
-        </ul>
-      </div>
-    </div>
-  </nav>
-    <body>
-        
-      <section class="hidden"> 
-      <div class="container font-monospace"  id="intro">
+<body>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg bg-body-tertiary font-monospace py-0 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light " href="#">R/C</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse text-light" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#intro"> <span class="navNums">1.</span> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#poop"><span class="navNums">2.</span> About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects_section"><span class="navNums">3.</span> Projects</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link"><span class="navNums">4.</span> Contact Me</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hidden"> 
+        <div class="container font-monospace" id="intro">
             <div class="font-monospace" id="osucolor">Hello World, my name is</div>
             <div class="display-2 font-monospace" id="myname">RAFAEL<span style="color: #DC4405;"">/</span>CARMONA.</div>
             <h2 class="font-monospace">Software Developer. </h2>
             <button id="introButton" type="button" class="btn">Resume</button>
         </div>
-        </section>
+    </section>
+ 
+    <section class="d-flex justify-content-center align-items-center  p-5 mb-5 mx-auto text-center" style="width: 40%;">
+      <img src="images/me.jpeg" alt="Image Description" class="img-fluid ">
+    </section>
 
-
-      <section id="intro1" class="container hidden">
+    <div id="poop"><br><br></div>
+    <section id="intro1" class="container hidden mb-auto ">
         <h1 id="title" class="text-center font-monospace"><span class="navNums">2.</span> About Me</h1>
-        <div class="col mt-5">
-          <div  class="col">
-            <p id="bio"class="text-center text-light font-monospace mb-5">My name is <span id="myname1"> RAFAEL CARMONA</span> and I have recently completed a Bachelor of Science, majoring in Computer Science at <span id="osucolor">Oregon State University</span>. I have a passion for all things tech and science. <br><br> Other Passions: Photography, Gaming, Dogs<br> <br> Here are some pics.  An AI create image of me.  Some photos I've taken. And some others that share a bit more about me.<br></p>
+        <div class="col mt-5 bg-ligh">
+            <div class="col">
+            <p id="bio"class="text-left text-light font-monospace mb-5">Hi, I'm<span id="myname1"> RAFAEL CARMONA</span> and I'm a recent Computer Science graduate from Oregon State University. As a Software Developer, I'm passionate about creating visually stunning and functional applications. My love for programming started when I was young and has only grown stronger since then. I'm always striving to learn more and push myself to new heights.<br>
+
+              <p id="bio"class="text-left text-light font-monospace mb-5">In my free time, I enjoy pursuing my hobby of photography, where I capture and share beautiful moments with others. I believe that photography is a great way to express oneself and I love finding unique and creative ways to showcase the world around us. I also love exploring the outdoors, traveling to new places, and experiencing different cultures.</p>
+              
+              <p id="bio"class="text-left text-light font-monospace mb-5">As a Puerto Rican, I'm deeply passionate about my heritage and culture. I believe that diversity and inclusivity are key to creating a better world and I strive to promote these values in everything I do. I'm fluent in both English and Spanish, and am excited to use my language skills to connect with people from all over the world.</p>
+              
+              <p id="bio"class="text-left text-light font-monospace mb-5">As a Software Developer, I love complex problems and am always eager to learn new technologies. I believe that technology can be a force for good and I'm excited to be part of a field that is constantly pushing the boundaries of what's possible. I enjoy working on challenging projects and am always looking for ways to improve my skills and knowledge.</p>
+              
+                           
+              <p id="bio"class="text-center text-light font-monospace mb-5">Thank you for taking the time to learn more about me. I'm excited to connect with you and explore new opportunities!<br></p>
           </div>
-          <div class="col">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="me.jpeg" class="d-block w-100" id="raf" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="OSU_vertical_2C_O_over_B.png" class="d-block w-100" id="raf" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="DSC00784.jpg" class="d-block w-100" id="raf" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="DSC00122.jpg" class="d-block w-100" id="raf" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="DSC00181.jpg" class="d-block w-100" id="raf" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="DSC00450.jpg" class="d-block w-100" id="raf" alt="...">
-                </div>
-                
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
+          
           </div>
         </div>
         </div>
       </section>
 
-      <section id="projects" class="container hidden">
+
+      <div id="projects_section"><br><br></div>
+      <section id="projects" class="container hidden ">
         <h1 id="title" class="text-center font-monospace"><span class="navNums">3.</span> Projects</h1>
         <p id="bio"class="text-center text-light font-monospace mt-3 mb-3">Some projects I've done. Check em out! </p>
           </div>
         <div class="card-group ">
-          <div class="card m-4" id="cards">
-            <img class="card-img-top" src="arnold-francisca-f77Bh3inUpE-unsplash.jpg" alt="Card image cap">
+          <div class="card mb-4" id="cards">
+            <img class="card-img-top" src="images/arnold-francisca-f77Bh3inUpE-unsplash.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title" id="cardsTitle">Therapist App - Database Project</h5>
               <p class="text-muted">School Project</p>
-              <p class="card-text">A web application with emphasis on SQL database design and implementation. The app is made for behavioral therapists daily data entry for skill trials performed by the provider with the client.<br><br> 
+              <p class="card-text">Web application made for behavioral therapists to perform daily data entry for skill trials with clients. The app is designed with a focus on SQL database implementation and uses Flask as the web framework and Python as the programming language.<br><br> 
                 <a href="https://github.com/rcarmona50/DatabaseProject" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" style="font-size: 40px"></i></a></p>
               <p class="card-text"><small class="text-warning">Tech Used: MySQL - FLASK - PYTHON - HTML/JINJA
               </small></p>
             </div>
           </div>
           
-          <div class="card m-4" id="cards">
-            <a href="https://mighty-cliffs-58661.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img class="card-img-top" src="Screenshot 2023-03-12 at 6.40.54 PM.png" alt="Card image cap"></a>
+          <div class="card m-4 " id="cards">
+            <a href="https://mighty-cliffs-58661.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img class="card-img-top" src="images/Screenshot 2023-03-12 at 6.40.54 PM.png" alt="Card image cap"></a>
             <div class="card-body">
               <h5 class="card-title" id="cardsTitle">Pickleball Finder App - Full Stack Project</h5>
               <p class="text-muted">Personal Project Project</p>
-              <p class="card-text">Pickleball Finder is a Node.js web application with RESTful routing project. Allows users to find nearby pickleball courts. Users can register, login, leave reviews, and submit new pickleball courts. Uses Cloudinary and MapBox API's for image storage and map functionality.<br><br><br> 
+              <p class="card-text">Pickleball Finder is a web application developed using Node.js with RESTful routing capabilities. Its primary objective is to assist users in discovering nearby pickleball courts. The application allows users to create accounts, log in, post reviews, and suggest new pickleball courts. Furthermore, the application uses the Cloudinary and MapBox API's to manage image storage and map-related features.<br><br><br> 
                 <a href="https://github.com/rcarmona50/PickleballFinder" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" style="font-size: 40px">  </i></a>
                 <a href="https://mighty-cliffs-58661.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right" style="font-size: 40px"></i></i></a>
               </p>
@@ -123,28 +106,14 @@
             </div>
           </div>
 
-          
-          
         </section>
         
-
-      
-      
-
-
-
-
-
-        <footer class="footer py-1 mt-auto fixed-bottom">
+        <footer class="footer py-1 mt-5 fixed-bottom">
           <div class="container">
               <span class="text-muted">&copy; Rafael Carmona 2023</span>
           </div>
       </footer>
-
-
-      
-    
-   
+  
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
