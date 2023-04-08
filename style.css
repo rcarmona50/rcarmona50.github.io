@@ -71,6 +71,7 @@ body {
 #projects {
     height: 100vh;
     color: white;
+    margin-bottom: 300px;
 }
 
 .hidden{
@@ -123,3 +124,19 @@ body {
     background-color: #3d4d6f;
 }
 
+#contactMe {
+    margin-bottom: 200px;
+}
+
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+}
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.6);
+}
