@@ -5,7 +5,7 @@ body {
 }
 
 #intro {
-    height: 100vh;
+    
     color: white;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@ body {
 }
 
 #intro1 {
-    height: 100vh;
+    
     color: white;
     display: flex;
     flex-direction: column;
@@ -69,9 +69,8 @@ body {
 }
 
 #projects {
-    height: 100vh;
     color: white;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 .hidden{
@@ -181,11 +180,9 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-    #intro1 {
-        margin-top: 400px;
+    #myFoto {
+        width: 70%;
     }
     
-    #projects {
-        margin-top: 500px;
-    }
+    
   }
